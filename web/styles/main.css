@@ -1,0 +1,65 @@
+/* 
+    Created on : Oct 20, 2015, 7:13:45 PM
+    Author     : Ben Hay and Haris Cesko
+*/
+
+.alignRight {
+    text-align: right;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+body {
+   width: 25em;
+   margin: 0 auto 0 auto; 
+}
+
+h1 {
+    color: blue;
+    text-align: left;
+    padding-left: 5%
+}
+
+#hide {
+    display: none;
+}
+
+html {
+    font-family: Ariel, Levetica, sans-serif; 
+    text-align: center;
+}
+
+footer {
+    border-style: solid;
+    border-color: blue;
+    text-align: left;
+}
+
+footer p {
+    padding-left: 5%;
+}
+
+table {
+    padding-left: 5%
+}
+
+table td {
+    white-space: nowrap;
+    margin-left: 3em;
+}
+
+section {
+    border-style: solid; 
+    border-color: blue;
+    border-bottom: none;
+}
+
+
+@media screen and (max-width: 400px) {
+
+    #hide {
+        display:block;
+    }
+}
